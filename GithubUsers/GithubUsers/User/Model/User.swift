@@ -19,7 +19,6 @@ struct User: Codable {
         case htmlURL = "html_url"
         case repos = "repos_url"
     }
-    
 }
 
 struct Repo: Codable {
@@ -32,5 +31,4 @@ struct Repo: Codable {
         case repoURL = "html_url"
         case description
     }
-    
 }
