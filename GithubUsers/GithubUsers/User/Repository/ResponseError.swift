@@ -9,4 +9,6 @@ import Foundation
 
 enum ResponseError: Error {
     case notFound
+    case decodingError
+    case genericError
 }

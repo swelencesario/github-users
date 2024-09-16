@@ -10,6 +10,11 @@
 		5CC6F02BCF497221A2AEDF91 /* Pods_GithubUsers_GithubUsersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CD2BEA9004202D338C68A6 /* Pods_GithubUsers_GithubUsersUITests.framework */; };
 		5FFF0A3D83088070EF804D81 /* Pods_GithubUsers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9193559703145224AEEEC151 /* Pods_GithubUsers.framework */; };
 		7C4D994F2C9682BA0091FAE8 /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D994E2C9682BA0091FAE8 /* ResponseError.swift */; };
+		7C4D99512C975D7C0091FAE8 /* CollectionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D99502C975D7C0091FAE8 /* CollectionCellViewModel.swift */; };
+		7C4D99542C975F740091FAE8 /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D99532C975F740091FAE8 /* Image+Extension.swift */; };
+		7C4D99562C976BB10091FAE8 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D99552C976BB10091FAE8 /* Observable.swift */; };
+		7C4D99582C9795C00091FAE8 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D99572C9795C00091FAE8 /* ViewController+Extension.swift */; };
+		7C4D995A2C97976A0091FAE8 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 7C4D99592C97976A0091FAE8 /* Localizable.xcstrings */; };
 		7CB8D2E92C94CBE500716D7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8D2E82C94CBE500716D7B /* AppDelegate.swift */; };
 		7CB8D2EB2C94CBE500716D7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8D2EA2C94CBE500716D7B /* SceneDelegate.swift */; };
 		7CB8D2ED2C94CBE500716D7B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8D2EC2C94CBE500716D7B /* HomeViewController.swift */; };
@@ -20,7 +25,7 @@
 		7CB8D30C2C94CBE700716D7B /* GithubUsersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8D30B2C94CBE700716D7B /* GithubUsersUITestsLaunchTests.swift */; };
 		7CB8D31A2C94CED600716D7B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8D3192C94CED600716D7B /* Coordinator.swift */; };
 		7CB8D31C2C94CF0200716D7B /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8D31B2C94CF0200716D7B /* MainCoordinator.swift */; };
-		7CB8D3212C94DBA600716D7B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8D3202C94DBA600716D7B /* HomeTableViewCell.swift */; };
+		7CB8D3212C94DBA600716D7B /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8D3202C94DBA600716D7B /* HomeCollectionViewCell.swift */; };
 		7CB8D3232C94DBCB00716D7B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8D3222C94DBCB00716D7B /* HomeView.swift */; };
 		7CB8D3252C94DBD700716D7B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8D3242C94DBD700716D7B /* HomeViewModel.swift */; };
 		7CB8D32D2C94DE1700716D7B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8D32C2C94DE1700716D7B /* User.swift */; };
@@ -60,6 +65,11 @@
 		47810E154DA0A1438376EEA7 /* Pods-GithubUsers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubUsers.release.xcconfig"; path = "Target Support Files/Pods-GithubUsers/Pods-GithubUsers.release.xcconfig"; sourceTree = "<group>"; };
 		5DFF548676C0451BC9712051 /* Pods-GithubUsers-GithubUsersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubUsers-GithubUsersUITests.release.xcconfig"; path = "Target Support Files/Pods-GithubUsers-GithubUsersUITests/Pods-GithubUsers-GithubUsersUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7C4D994E2C9682BA0091FAE8 /* ResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
+		7C4D99502C975D7C0091FAE8 /* CollectionCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellViewModel.swift; sourceTree = "<group>"; };
+		7C4D99532C975F740091FAE8 /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
+		7C4D99552C976BB10091FAE8 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		7C4D99572C9795C00091FAE8 /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		7C4D99592C97976A0091FAE8 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		7CB8D2E52C94CBE500716D7B /* GithubUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB8D2E82C94CBE500716D7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CB8D2EA2C94CBE500716D7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,7 +84,7 @@
 		7CB8D30B2C94CBE700716D7B /* GithubUsersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUsersUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7CB8D3192C94CED600716D7B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		7CB8D31B2C94CF0200716D7B /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
-		7CB8D3202C94DBA600716D7B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		7CB8D3202C94DBA600716D7B /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		7CB8D3222C94DBCB00716D7B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7CB8D3242C94DBD700716D7B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		7CB8D32C2C94DE1700716D7B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -134,6 +144,17 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		7C4D99522C975F550091FAE8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7C4D99532C975F740091FAE8 /* Image+Extension.swift */,
+				7C4D99572C9795C00091FAE8 /* ViewController+Extension.swift */,
+				7C4D99552C976BB10091FAE8 /* Observable.swift */,
+				7C4D99592C97976A0091FAE8 /* Localizable.xcstrings */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		7CB8D2DC2C94CBE500716D7B = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +180,7 @@
 		7CB8D2E72C94CBE500716D7B /* GithubUsers */ = {
 			isa = PBXGroup;
 			children = (
+				7C4D99522C975F550091FAE8 /* Util */,
 				7CB8D3182C94CEC500716D7B /* Coordinator */,
 				7CB8D31E2C94D9D700716D7B /* User */,
 				7CB8D31D2C94D9CF00716D7B /* Home */,
@@ -202,7 +224,7 @@
 		7CB8D31D2C94D9CF00716D7B /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				7CB8D32A2C94DC9800716D7B /* TableViewCell */,
+				7CB8D32A2C94DC9800716D7B /* CollectionViewCell */,
 				7CB8D3222C94DBCB00716D7B /* HomeView.swift */,
 				7CB8D3242C94DBD700716D7B /* HomeViewModel.swift */,
 				7CB8D2EC2C94CBE500716D7B /* HomeViewController.swift */,
@@ -238,12 +260,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		7CB8D32A2C94DC9800716D7B /* TableViewCell */ = {
+		7CB8D32A2C94DC9800716D7B /* CollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				7CB8D3202C94DBA600716D7B /* HomeTableViewCell.swift */,
+				7C4D99502C975D7C0091FAE8 /* CollectionCellViewModel.swift */,
+				7CB8D3202C94DBA600716D7B /* HomeCollectionViewCell.swift */,
 			);
-			path = TableViewCell;
+			path = CollectionViewCell;
 			sourceTree = "<group>";
 		};
 		7CB8D32E2C94DE2900716D7B /* Repository */ = {
@@ -375,6 +398,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 7CB8D2DC2C94CBE500716D7B;
 			productRefGroup = 7CB8D2E62C94CBE500716D7B /* Products */;
@@ -395,6 +419,7 @@
 			files = (
 				7CB8D2F22C94CBE700716D7B /* Assets.xcassets in Resources */,
 				7CB8D2F52C94CBE700716D7B /* Base in Resources */,
+				7C4D995A2C97976A0091FAE8 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,19 +547,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4D99562C976BB10091FAE8 /* Observable.swift in Sources */,
 				7CB8D31A2C94CED600716D7B /* Coordinator.swift in Sources */,
 				7CB8D3232C94DBCB00716D7B /* HomeView.swift in Sources */,
 				7CB8D33F2C94E31C00716D7B /* UserReposViewController.swift in Sources */,
 				7CB8D2ED2C94CBE500716D7B /* HomeViewController.swift in Sources */,
+				7C4D99582C9795C00091FAE8 /* ViewController+Extension.swift in Sources */,
 				7CB8D3372C94E2AD00716D7B /* UserDetailsViewModel.swift in Sources */,
 				7CB8D3392C94E2C200716D7B /* UserDetailsViewController.swift in Sources */,
 				7CB8D3252C94DBD700716D7B /* HomeViewModel.swift in Sources */,
 				7CB8D3352C94E2A000716D7B /* UserDetailsView.swift in Sources */,
 				7CB8D33D2C94E31000716D7B /* UserReposViewModel.swift in Sources */,
-				7CB8D3212C94DBA600716D7B /* HomeTableViewCell.swift in Sources */,
+				7CB8D3212C94DBA600716D7B /* HomeCollectionViewCell.swift in Sources */,
 				7CB8D33B2C94E30200716D7B /* UserReposView.swift in Sources */,
 				7CB8D2E92C94CBE500716D7B /* AppDelegate.swift in Sources */,
 				7CB8D31C2C94CF0200716D7B /* MainCoordinator.swift in Sources */,
+				7C4D99512C975D7C0091FAE8 /* CollectionCellViewModel.swift in Sources */,
+				7C4D99542C975F740091FAE8 /* Image+Extension.swift in Sources */,
 				7CB8D3332C94E1BA00716D7B /* Environment.swift in Sources */,
 				7CB8D32D2C94DE1700716D7B /* User.swift in Sources */,
 				7CB8D3302C94DFEA00716D7B /* UserRepository.swift in Sources */,
