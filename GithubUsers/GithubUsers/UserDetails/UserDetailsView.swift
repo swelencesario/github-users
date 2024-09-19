@@ -11,7 +11,6 @@ class UserDetailsView: UIView {
     
     lazy var image: UIImageView = {
         let image = UIImageView()
-        image.image = UIImage(systemName: "house.fill")
         image.contentMode = .scaleAspectFit
         image.clipsToBounds = true
         image.layer.cornerRadius = 8.0
@@ -22,7 +21,6 @@ class UserDetailsView: UIView {
     
     lazy var nameLabel: UILabel = {
         let label = UILabel()
-        label.text = "Swelen Cesario"
         label.textAlignment = .center
         label.font = UIFont(name: "Hiragino Sans W5", size: 16.0)
         label.translatesAutoresizingMaskIntoConstraints = false
