@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension HomeViewController {
+extension UIViewController {
     func callErrorAlert(title: String, message: String) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let action = UIAlertAction(title: "Ok", style: .default)

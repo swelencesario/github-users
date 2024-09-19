@@ -29,16 +29,6 @@ class HomeCollectionViewCell: UICollectionViewCell {
         return label
     }()
     
-    lazy var profileButton: UIButton = {
-        let button = UIButton()
-            button.setTitle("Profile", for: .normal)
-            button.titleLabel?.font = UIFont(name: "Hiragino Sans W3", size: 12.0)
-            button.setTitleColor(.black, for: .normal)
-            button.translatesAutoresizingMaskIntoConstraints = false
-            
-            return button
-        }()
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = .systemBackground
@@ -59,13 +49,11 @@ class HomeCollectionViewCell: UICollectionViewCell {
     func setupViews() {
         addSubview(image)
         addSubview(nameLabel)
-        addSubview(profileButton)
     }
     
     func setupConstraints() {
         imageConstraints()
         nameLabelConstraints()
-        profileButtonConstraints()
     }
     
     func imageConstraints() {
@@ -81,15 +69,8 @@ class HomeCollectionViewCell: UICollectionViewCell {
         NSLayoutConstraint.activate([
             nameLabel.topAnchor.constraint(equalTo: image.bottomAnchor, constant: 16.0),
             nameLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
-            nameLabel.trailingAnchor.constraint(equalTo: trailingAnchor)
-        ])
-    }
-    
-    func profileButtonConstraints() {
-        NSLayoutConstraint.activate([
-            profileButton.topAnchor.constraint(greaterThanOrEqualTo: nameLabel.bottomAnchor),
-            profileButton.centerXAnchor.constraint(equalTo: nameLabel.centerXAnchor),
-            profileButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -8.0)
+            nameLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
+            nameLabel.bottomAnchor.constraint(greaterThanOrEqualTo: bottomAnchor)
         ])
     }
 }
