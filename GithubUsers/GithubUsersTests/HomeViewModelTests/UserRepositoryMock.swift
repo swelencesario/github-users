@@ -10,9 +10,9 @@ import Foundation
 
 class UserRepositoryMock: UserRepositoryProtocol {
     
-    var users = [User(login: "swelencesario", avatarURL: "https://avatars.githubusercontent.com/u/65640306?v=4", htmlURL: "https://github.com/swelencesario")]
+    var users = [User(login: "swelencesario", avatarURL: "https://avatars.githubusercontent.com/u/65640306?v=4", htmlURL: "https://github.com/swelencesario", repos: "https://api.github.com/users/swelencesario/repos")]
     
-    var userByLogin = User(login: "swelencesario", avatarURL: "https://avatars.githubusercontent.com/u/65640306?v=4", htmlURL: "https://github.com/swelencesario")
+    var userByLogin = User(login: "swelencesario", avatarURL: "https://avatars.githubusercontent.com/u/65640306?v=4", htmlURL: "https://github.com/swelencesario", repos: "https://api.github.com/users/swelencesario/repos")
     
     var error: ResponseError?
     

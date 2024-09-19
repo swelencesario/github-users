@@ -15,9 +15,18 @@ public class MainCoordinator: Coordinator {
     }
     
     func start() {
-        let vc = HomeViewController()
-        vc.coordinator = self
+        let vc = HomeViewController(coordinator: self)
         navigationController.pushViewController(vc, animated: false)
+    }
+    
+    func goToDetailsScreen(userName: String, profileURL: String) {
+        let vc = UserDetailsViewController(userName: userName, userProfileURL: profileURL, coordinator: self)
+        navigationController.pushViewController(vc, animated: true)
+    }
+    
+    func callWebView(profileURL: String) {
+        let vc = WebViewController(userProfileURL: profileURL, coordinator: self)
+        navigationController.pushViewController(vc, animated: true)
     }
     
 }
