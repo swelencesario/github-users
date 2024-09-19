@@ -17,7 +17,7 @@ GitHub Users App é um aplicativo mobile desenvolvido em Swift utilizando UIKit 
 - View Code: Toda a interface foi construída programaticamente, sem o uso de Storyboards.
 - Localizable.strings: Utilizado para a internacionalização de strings.
 
-## Requisitos para rodas a aplicação
+## Requisitos para rodar a aplicação
 
 - XCode versão 14 ou superior
 - Versão do iOS 16.0 ou superior
